@@ -1,0 +1,289 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border-style: none;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 10%;
+}
+.logo{
+    width: 6% ;
+    height: 5%;
+    position: absolute;
+    top: 1.7%;
+    left: 1%;
+}
+#link{
+    width: 500px;
+    position: absolute;
+    top: 2%;
+    left: 40% ;
+}
+a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4%;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: dimgray;
+    transition-duration: 1s;
+    transition-delay: 0.01s;
+    
+
+}
+#sair{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 2%;
+    left: 95%;
+}
+body {
+    background: linear-gradient(to top, #333, #919090);
+}
+.aviso1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 14%;
+    left: 2%;
+}
+.aviso2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+.iron{
+    background-color: darkorchid;
+    width: 250px;
+    height: 330px;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    border-radius: 10px;
+}
+.iron:hover{
+    transition-duration: 1s;
+    transition-delay: 1ms;
+    transform: scale(1.1);
+}
+#team{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.homem-ferro{
+    width: 100px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.descricao{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 60%;
+    left: 6%;
+}
+#escolher{
+    font-size: 15px;
+    border-radius: 4px;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top: 83%;
+    left: 31%;
+    color: white;
+    background: linear-gradient( to left, blue, red)
+}
+.cap{
+    background-color: darkorchid;
+    width: 250px;
+    height: 330px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    border-radius: 10px;
+
+}
+.cap:hover{
+    transition-duration: 1s;
+    transition-delay: 1ms;
+    transform: scale(1.1);
+}
+.thanos{
+    
+    background-color: darkorchid;
+    width: 250px;
+    height: 330px;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    border-radius: 10px;
+
+}
+.thanos:hover{
+    transition-duration: 1s;
+    transition-delay: 1ms;
+    transform: scale(1.1);
+}
+section{
+    background-image: url(../img/giphy.gif);
+    background-size: cover;
+    height: 80%;
+    width: 30%;
+    position: absolute;
+    top: 14%;  
+    left: 66%;
+    border-radius: 20px;  
+}
+#aven{
+    width: 80px;
+    position: absolute;
+    top: 5%;
+    left: 42%;
+}
+#nome{
+    color: white;
+    width: 400px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    padding-left: 4%;
+}
+#n-forca{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+#forca{
+    width: 250px;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+}
+#tipos{
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top: 38%;
+    left: 65%;
+}
+#a-data{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 48%;
+    left: 7%;
+}
+#data{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 155px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 5%;
+    position: absolute;
+    top: 54%;
+    left: 7%;
+}
+#local{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 5%;
+    position: absolute;
+    top: 54%;
+    left: 47%;
+
+}
+#aceitar{
+    position: absolute;
+    top: 66%;
+    left: 7%;
+}
+#termos{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 65.9%;
+    left: 12%;
+}
+#alistar{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    background-color: darkviolet;
+    width: 390px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 73%;
+    left: 9%;
+}
+#alistar:hover{
+    background-color: rgb(90, 3, 127);
+    transition-duration: 0.5s;
+    transition-delay: 1ms;
+}
+#desistir{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    background-color: white;
+    width: 390px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 81.3%;
+    left: 9%;
+}
+#convocar{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    background-color: white;
+    width: 390px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 90%;
+    left: 9%;
+}
+#desen{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 87%;
+    left: 20.7%;
+}

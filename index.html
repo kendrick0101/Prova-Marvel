@@ -1,0 +1,101 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+    <link rel="shortcut icon" href="icons/download-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Marvel_Logo.svg.png" alt="logo marvel">
+
+        <div id="link">
+        <a href="#">Wakanda</a>
+        <a href="#">New York</a>
+        <a href="#">Brazil</a>
+        <a href="#">Sokovia</a>
+        </div>
+
+        <h1 id="sair">⮩ Sair</h1>
+
+    </header>
+
+    <main>
+        <h1 class="aviso1">A guerra está chegando !</h1>
+        <h2 class="aviso2">Escolha seu lado...</h2>
+
+        <div class="iron">
+         <h1 id="team">֍ Team Iron</h1>
+
+         <img class="homem-ferro" src="icons/iron.png" alt="homem de ferro">
+
+         <p class="descricao">Unam-se pela ordem e <br> responsabilidade! Junte-se a nós <br> para defender a paz e o controle.</p>
+         
+         <button id="escolher">Escolher</button>
+
+        </div>
+        <div class="cap">
+             <h1 id="team">֍ Team Cap</h1>
+    
+             <img class="homem-ferro" src="icons/cap.png" alt="capitao america">
+    
+             <p class="descricao">Lutem pela liberdade e pela <br> autonomia! Venha para o nosso<br> lado e preserve a liberdade.</p>
+    
+             <button id="escolher">Escolher</button>
+    
+        </div>
+        <div class="thanos">
+            <h1 id="team">֍ Team Thanos</h1>
+   
+            <img class="homem-ferro" src="icons/thanos.png" alt="Thanos">
+   
+            <p class="descricao">O destino do universo está em <br> nossas mãos! Junte-se a nós para trazer equilíbrio.</p>
+   
+            <button id="escolher">Escolher</button>
+
+       </div>
+
+       <h1 id="desen">Desenvolvido por Fernando Kendrick  ©</h1>
+       
+
+       <section>
+        <img id="aven" src="icons/download-removebg-preview.png" alt="">
+
+        <input type="text" placeholder="Seu nome de super-herói" name="nome" id="nome">
+
+        <h2 id="n-forca">Informe seu nível de força</h2>
+        <input type="range" name="força" id="forca">
+        <form>
+            <select name="tipos" id="tipos">
+              <option value="tipo">Tipo</option>
+              <option value="velocidade">Velocidade</option>
+              <option value="fogo">Fogo</option>
+
+            </select>
+        </form>
+
+        <h2 id="a-data">Data de aquisição do super poder</h2>
+        <input type="date" id="data">
+        <input type="text" name="local" id="local" placeholder="Local">
+
+        <input type="checkbox" name="aceitar" id="aceitar">
+        <h2 id="termos">Aceitar termos e condições</h2>
+
+        <button id="alistar">Alistar-se</button>
+        <button id="desistir">⚑ Desistir</button>
+        <button id="convocar">🗡Convocar</button>
+        
+       </section>
+
+    </main>
+    <script>
+   const inputNome = document.getElementById("nome");
+   const btnAlistar = document.getElementById("alistar");
+
+   btnAlistar.addEventListener("click", function() {
+   alert("Vamos vencer essa batalha Super " + inputNome.value + "!");
+});
+</script>
+</body>
+</html>
